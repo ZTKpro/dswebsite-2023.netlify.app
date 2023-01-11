@@ -122,7 +122,7 @@ const PortfolioItems = [
     Tittle: "Car AI",
     Tech: "React",
     Date: "2020",
-    Href: "car-network.netlify.app",
+    Href: "https://car-network.netlify.app",
   },
   {
     Img: "https://user-images.githubusercontent.com/48288156/209471495-7dd99c9d-1154-45ec-a86f-d8d170096f72.gif",
