@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Bubbles from "../components/Bubbles";
 import Tech from "../components/Tech";
 import Portfolio from "../components/Porfolio";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Bubbles />
         <Tech />
         <Portfolio />
+        <Contact />
       </main>
     </>
   );

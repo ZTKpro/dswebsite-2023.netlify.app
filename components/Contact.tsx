@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import styled from "styled-components";
 
 import Facebook from "./assets/fb.png";
@@ -59,17 +61,17 @@ class WorkTogether extends React.Component {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Facebook}></img>
+            <Image src={Facebook} alt="facebook icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/dszmurlo/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Linkedin}></img>{" "}
+            <Image src={Linkedin} alt="Linkedin icon" />
           </a>
           <a href="https://github.com/ZTKpro" target="_blank" rel="noreferrer">
-            <img src={Github}></img>{" "}
+            <Image src={Github} alt="Github icon" />
           </a>
         </IconBox>
       </WorkWrapper>

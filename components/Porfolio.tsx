@@ -41,7 +41,10 @@ const StyledImageWrapper = styled.div`
   }
 
   &:hover {
-    margin: 15px 15px 20px 0;
+    margin: 5px 5px 27px 0;
+    border: 1px solid #1aaffc;
+    background-color: #1aaffc;
+    transition: 0.5s;
   }
 `;
 
