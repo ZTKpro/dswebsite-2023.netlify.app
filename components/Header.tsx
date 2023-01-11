@@ -26,7 +26,7 @@ class Header extends React.Component {
     return (
       <StyledHeader>
         <h2>
-          Hi, my name is <span>Damian Szmurło</span> I Front end developer
+          Hi, my name is <span>Damian Szmurło</span> I Fullstack developer
         </h2>
       </StyledHeader>
     );
