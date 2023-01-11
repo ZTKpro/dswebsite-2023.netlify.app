@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import Edumat from "./assets/edumat.png";
 import Motion from "./assets/motion.png";
+import Classify from "./assets/classify.png";
 import Car from "./assets/car.gif";
 
 const WrapperPorfolio = styled.section`
@@ -137,6 +138,13 @@ const PortfolioItems = [
     Tech: "React",
     Date: "2020",
     Href: "https://motion-detection-ds.netlify.app",
+  },
+  {
+    Img: Classify,
+    Tittle: "Image Classifier",
+    Tech: "TensorFlowJS",
+    Date: "2023",
+    Href: "https://classifier-js-ds.netlify.app",
   },
 ];
 
